@@ -1,0 +1,81 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "healthcare-service-type--1",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termx.kodality.dev/fhir/ValueSet/healthcare-service-type"
+  }, {
+    "url" : "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel",
+    "valueCode" : "executable"
+  } ],
+  "url" : "https://kodality.org/fhir/CodeSystem/healthcare-service-type",
+  "version" : "1",
+  "title" : "Healthcare service type",
+  "status" : "draft",
+  "experimental" : false,
+  "publisher" : "KTS",
+  "effectivePeriod" : {
+    "start" : "2022-12-15T00:00:00Z"
+  },
+  "caseSensitive" : false,
+  "content" : "complete",
+  "property" : [ {
+    "code" : "definition",
+    "type" : "string"
+  }, {
+    "code" : "display",
+    "type" : "string"
+  }, {
+    "code" : "order",
+    "type" : "integer"
+  } ],
+  "concept" : [ {
+    "code" : "ambulatory",
+    "display" : "Амбулаторная",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Ambulatory"
+    }, {
+      "language" : "uz-CYRL",
+      "use" : {
+        "code" : "display"
+      }
+    }, {
+      "language" : "uz-LATN",
+      "use" : {
+        "code" : "display"
+      }
+    } ],
+    "property" : [ {
+      "code" : "order",
+      "valueInteger" : 110
+    } ]
+  }, {
+    "code" : "inpatient",
+    "display" : "Стационарная",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Inpatient"
+    }, {
+      "language" : "uz-CYRL",
+      "use" : {
+        "code" : "display"
+      }
+    }, {
+      "language" : "uz-LATN",
+      "use" : {
+        "code" : "display"
+      }
+    } ],
+    "property" : [ {
+      "code" : "order",
+      "valueInteger" : 120
+    } ]
+  } ]
+}
