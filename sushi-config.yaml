@@ -1,0 +1,11 @@
+id: test
+canonical: https://fhir.ee/ImplementationGuide/test
+name: Test
+title: Test
+status: draft
+version: 1.0.0
+fhirVersion: 5.0.0
+copyrightYear: 2024+
+releaseLabel: ballot
+publisher: 
+  name: TEHIK
